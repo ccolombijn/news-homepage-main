@@ -1,0 +1,11 @@
+{
+  "name": "news-homepage-main",
+  "version": "1.0.0",
+  "description": "News homepage coding challenge - assesment for D-Media by @ccolombijn",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ccolombijn",
+  "license": "ISC"
+}
