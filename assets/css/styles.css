@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 body { font-family: 'Inter',sans-serif; }
+:root {
+    --dark-purple: #00011A;
+    --yellow: #E8AA4C;
+    --orange: #F15D51;
+    --light-grey: #CAC7CF;
+    --white: #FFF;
+}
 span.inner { display: none; } 
 a { text-decoration: none; }
 a.logo { 
@@ -23,6 +30,24 @@ nav ul > li {
     padding: 0px 20px;
     list-style-type: none;
 }
+nav ul > li > a { color: var(----dark-purple); }
+nav ul > li > a:hover { color: var(--orange); }
+article { color: var(--dark-purple); }
+a.article-btn {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 1em;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+aside { background-color: var(--dark-purple);}
+aside > article {
+    padding: 2rem;
+}
+aside > h2 { color: var(--yellow); }
+aside, aside a, aside p { color: var(--white);}
+aside a:hover { color: var(--yellow);}
+footer h3 { color: var(--light-grey); }
 img.article-img {
     width: 100%;
 }
