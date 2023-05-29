@@ -141,6 +141,7 @@ a.article-btn:hover{  background-color: var(--dark-purple); }
 
 aside { 
     background-color: var(--dark-purple);
+    margin-bottom: 4em !important;
 }
 @media (max-width: 768px) { 
     aside { 
@@ -169,10 +170,13 @@ aside p {
     filter: opacity(0.75);
     padding-bottom: 2rem;
     border-bottom: 1px solid var(--light-grey);
-    padding-right: 0.7rem;
+    padding-right: 0.8rem;
 }
 
-aside > article { padding-top: 0em; }
+aside > article { 
+    padding-top: 0em; 
+    padding-right: 1em;
+}
 
 aside > article:last-child p {
     border-bottom: unset;
@@ -197,9 +201,9 @@ footer h3 {
 
 footer h4 { 
     font-weight: 900;
-    font-size: 1.1em;
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 footer p { padding-right: 0.7rem; }
